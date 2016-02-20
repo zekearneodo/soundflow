@@ -16,6 +16,10 @@ class WavData:
     def get_chunk(self, start, end, chan_list=[0]):
         frame_to_type = { '2' : 'h', '4' : 'i'}
         # returns a vector with a channel
+        assert(start >= 0)
+        assert(end <=self.n_samples)
+        assert(end > start)
+
         n_chans = self.n_chans
         self.raw.setpos(start)
         chunk_bit = self.raw.readframes(end - start)
@@ -24,21 +28,31 @@ class WavData:
         data = np.zeros((len(chan_list), end - start), dtype=np.dtype(data_type))
 
         for i, channel in enumerate(chan_list):
-            data[i, :] = struct.unpack('<' + str((end -start)*n_chans) + data_type, chunk_bit)[channel::n_chans]
+            data[i, :] = struct.unpack('<' + str((end - start)*n_chans) + data_type, chunk_bit)[channel::n_chans]
+
+        data = np.array(data, dtype=np.int64)
         return data
 
+    # applies a scalar function to many starting points
+    def apply_repeated(self, starts, window, scalar_func, *args, **kwargs):
+        # starts, window in sample units
+
+        y = np.empty_like(starts)
+        for i_s, start in enumerate(starts):
+            a_chunk = Chunk(self, segment=[start, start + window])
+            y[i_s] = scalar_func(a_chunk.data, *args, **kwargs)
+
+        return y
+
+    def get_rms(self, t_ms):
+        pass
 
 # class of methods for chunks of a signal
 # A chunk is a part of a signal and it is referenced to that signal.
 class Chunk:
-    '''
-    sound:
 
-    chan_list:
-    segment:
-    '''
     def __init__(self, sound, chan_list=[0], segment=[0, None]):
-        '''
+        """
         :param sound: Sound where it comes from. Sound has to have methods that return
         n_samples (int, total number of samples)
         s_f (int, sampling frequency in KHZ)
@@ -47,10 +61,10 @@ class Chunk:
         :param chan_list: list of channels to extract
         :type chan_list: int list
         :param segment: begin and end of segment to extract (in samples)
-        :type segment: list
+        :type segment: list of starting point, end point (in samples)
         :return:
         :rtype:
-        '''
+        """
 
         self.sound = sound
         self.start = segment[0]
