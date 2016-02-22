@@ -4,6 +4,7 @@ import numpy as np
 import wave
 import struct
 
+
 class WavData:
     def __init__(self, file_path):
         self.file_path = file_path
@@ -14,21 +15,22 @@ class WavData:
         self.n_chans = self.raw.getparams()[0]
 
     def get_chunk(self, start, end, chan_list=[0]):
-        frame_to_type = { '2' : 'h', '4' : 'i'}
+        frame_to_type = {'2': 'h', '4': 'i'}
         # returns a vector with a channel
         assert(start >= 0)
-        assert(end <=self.n_samples)
+        assert(end <= self.n_samples)
         assert(end > start)
 
         n_chans = self.n_chans
         self.raw.setpos(start)
         chunk_bit = self.raw.readframes(end - start)
-
         data_type = frame_to_type[str(self.frame_size)]
-        data = np.zeros((len(chan_list), end - start), dtype=np.dtype(data_type))
 
+        # TODO: this is dirty, change by one read, unpack and reshape
+        data = np.zeros((len(chan_list), end - start), dtype=np.dtype(data_type))
+        data_unpacked = struct.unpack('<' + str((end - start)*n_chans) + data_type, chunk_bit)
         for i, channel in enumerate(chan_list):
-            data[i, :] = struct.unpack('<' + str((end - start)*n_chans) + data_type, chunk_bit)[channel::n_chans]
+            data[i, :] = data_unpacked[channel::n_chans]
 
         data = np.array(data, dtype=np.int64)
         return data
@@ -46,6 +48,7 @@ class WavData:
 
     def get_rms(self, t_ms):
         pass
+
 
 # class of methods for chunks of a signal
 # A chunk is a part of a signal and it is referenced to that signal.
@@ -81,3 +84,4 @@ class Chunk:
 
     def get_f0(self):
         pass
+
