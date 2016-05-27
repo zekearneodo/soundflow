@@ -3,7 +3,11 @@
 import numpy as np
 import wave
 import struct
+import matplotlib.pyplot as plt
 
+
+# TODO:  Make DatSound a subclass of WavData
+#        Save chunk as wav file (using wave)
 
 class WavData:
     def __init__(self, file_path):
@@ -32,7 +36,7 @@ class WavData:
         for i, channel in enumerate(chan_list):
             data[i, :] = data_unpacked[channel::n_chans]
 
-        data = np.array(data, dtype=np.int64)
+        data = np.array(data, dtype=np.float32)
         return data
 
     # applies a scalar function to many starting points
@@ -50,11 +54,39 @@ class WavData:
         pass
 
 
+class DatSound:
+
+    def __init__(self, data, s_f):
+        self.stream = data
+        self.s_f = s_f
+        self.n_samples = data.shape[0]
+        self.n_chans = data.size/self.n_samples
+
+    def get_chunk(self, start, end, chan_list=[0]):
+        assert (start >= 0)
+        assert (end <= self.n_samples)
+        assert (end > start)
+        if self.stream.shape[0] == self.stream.size:
+            return self.stream[start:end]
+        else:
+            return self.stream[start:end, chan_list]
+
+    # applies a scalar function to many starting points
+    def apply_repeated(self, starts, window, scalar_func, *args, **kwargs):
+        # starts, window in sample units
+        y = np.empty_like(starts)
+        for i_s, start in enumerate(starts):
+            a_chunk = Chunk(self, segment=[start, start + window])
+            y[i_s] = scalar_func(a_chunk.data, *args, **kwargs)
+
+        return y
+
+
 # class of methods for chunks of a signal
 # A chunk is a part of a signal and it is referenced to that signal.
 class Chunk:
 
-    def __init__(self, sound, chan_list=[0], segment=[0, None]):
+    def __init__(self, sound, chan_list=np.array([0]), segment=[0, None]):
         """
         :param sound: Sound where it comes from. Sound has to have methods that return
         n_samples (int, total number of samples)
@@ -81,6 +113,25 @@ class Chunk:
     def apply_filter(self, filter_func, *args, **kwargs):
         # Apply some filter function to the chunk of data
         self.data = filter_func(self.data, *args, **kwargs)
+
+    def plot(self, ax=None):
+        # Plot all channels into one plot
+        # Offset them
+        amps = np.ptp(self.data, axis=0)
+        max_amp = np.max(amps)
+        plot_data = np.zeros_like(self.data)
+        for i in np.arange(self.chan_list.size):
+            plot_data[:, i] = self.data[:, i] / max_amp + i
+        if ax is None:
+            waveforms_fig = plt.figure()
+            ax = waveforms_fig.add_axes([0, 0, 1, 1])
+            ax.plot(plot_data)
+
+        return waveforms_fig, ax
+
+    def export_wav(self, out_file_path):
+        pass
+
 
     def get_f0(self):
         pass

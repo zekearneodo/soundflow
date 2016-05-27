@@ -6,7 +6,7 @@ import numpy as np
 import os
 
 
-def resample_wav(in_file, rate = 0, out_path='', out_file='', mono_output=True):
+def resample_wav(in_file, rate=0, out_path='', out_file='', mono_output=True):
 
     """
     in_file : complete (file, path) input file

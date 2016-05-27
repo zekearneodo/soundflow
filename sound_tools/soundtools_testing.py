@@ -22,7 +22,7 @@ def band_pass_filter(chunk, hp_b, hp_a, lp_b, lp_a):
 def main():
     comp_name=socket.gethostname()
     print 'Computer: ' + comp_name
-    if  comp_name == 'chim':
+    if comp_name == 'chim':
         sys.path.append('C:\Users\GentnerLab\Documents\Experiment\scripts\sound_tools')
         experiment_folder = os.path.join('C:\Users\GentnerLab\Documents\Experiment')
         r = os.path.join('C:\Users\GentnerLab\Documents\Experiment')
