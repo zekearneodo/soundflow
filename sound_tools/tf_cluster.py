@@ -2,7 +2,7 @@ import tensorflow as tf
 from random import choice, shuffle
 from numpy import array
 
-def TFKMeansCluster(vectors, noofclusters):
+def means_cluster(vectors, noofclusters):
     """
     K-Means Clustering using TensorFlow.
     'vectors' should be a n*k 2-D NumPy array, where n is the number

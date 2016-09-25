@@ -2,14 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0af9ed62-54da-4135-8ca1-c96c78ef2d0e" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ephysflow/basic_viewing/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ephysflow/phy_tools/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ephysflow/phy_tools/kwik_functions.py" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.ipynb_checkpoints/Untitled-checkpoint.ipynb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Untitled.ipynb" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ephysflow/.idea/dictionaries/earneodo.xml" afterPath="$PROJECT_DIR$/../ephysflow/.idea/dictionaries/earneodo.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ephysflow/.idea/vcs.xml" afterPath="$PROJECT_DIR$/../ephysflow/.idea/vcs.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ephysflow/.ipynb_checkpoints/kwik_file_scrutiny-checkpoint.ipynb" afterPath="$PROJECT_DIR$/../ephysflow/.ipynb_checkpoints/kwik_file_scrutiny-checkpoint.ipynb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ephysflow/README.md" afterPath="$PROJECT_DIR$/../ephysflow/README.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ephysflow/basic_viewing/.idea/.name" afterPath="$PROJECT_DIR$/../ephysflow/basic_viewing/.idea/.name" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ephysflow/basic_viewing/.idea/basic_viewing.iml" afterPath="$PROJECT_DIR$/../ephysflow/basic_viewing/.idea/basic_viewing.iml" />
@@ -17,29 +11,31 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ephysflow/basic_viewing/.idea/misc.xml" afterPath="$PROJECT_DIR$/../ephysflow/basic_viewing/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ephysflow/basic_viewing/.idea/modules.xml" afterPath="$PROJECT_DIR$/../ephysflow/basic_viewing/.idea/modules.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ephysflow/basic_viewing/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../ephysflow/basic_viewing/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ephysflow/basic_viewing/basic_plot.py" afterPath="$PROJECT_DIR$/../ephysflow/basic_viewing/basic_plot.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ephysflow/basic_viewing/__init__.py" afterPath="$PROJECT_DIR$/../ephysflow/basic_viewing/__init__.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ephysflow/basic_viewing/data_load.py" afterPath="$PROJECT_DIR$/../ephysflow/basic_viewing/data_load.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ephysflow/basic_viewing/events.py" afterPath="$PROJECT_DIR$/../ephysflow/basic_viewing/events.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ephysflow/basic_viewing/h5_functions.py" afterPath="$PROJECT_DIR$/../ephysflow/basic_viewing/h5_functions.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ephysflow/basic_viewing/units.py" afterPath="$PROJECT_DIR$/../ephysflow/basic_viewing/units.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ephysflow/kwik_file_scrutiny.ipynb" afterPath="$PROJECT_DIR$/../ephysflow/kwik_file_scrutiny.ipynb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ephysflow/kwik_file_example-Copy1.ipynb" afterPath="$PROJECT_DIR$/../ephysflow/kwik_file_example-Copy1.ipynb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ephysflow/kwik_file_example-chop_syllables.ipynb" afterPath="$PROJECT_DIR$/../ephysflow/kwik_file_example-chop_syllables.ipynb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ephysflow/kwik_file_example-exported.ipynb" afterPath="$PROJECT_DIR$/../ephysflow/kwik_file_example-exported.ipynb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ephysflow/kwik_file_example.ipynb" afterPath="$PROJECT_DIR$/../ephysflow/kwik_file_example.ipynb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ephysflow/open_ephys_reading.ipynb" afterPath="$PROJECT_DIR$/../ephysflow/open_ephys_reading.ipynb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ephysflow/open_ephys_visualizing_singing.ipynb" afterPath="$PROJECT_DIR$/../ephysflow/open_ephys_visualizing_singing.ipynb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ephysflow/phy_tools/__init__.py" afterPath="$PROJECT_DIR$/../ephysflow/phy_tools/__init__.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ephysflow/view_rasters-after-sort.ipynb" afterPath="$PROJECT_DIR$/../ephysflow/view_rasters-after-sort.ipynb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ephysflow/view_rasters.ipynb" afterPath="$PROJECT_DIR$/../ephysflow/view_rasters.ipynb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.name" afterPath="$PROJECT_DIR$/.idea/.name" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/soundflow.iml" afterPath="$PROJECT_DIR$/.idea/soundflow.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.ipynb_checkpoints/testing_soundtools_find_song-checkpoint.ipynb" afterPath="$PROJECT_DIR$/.ipynb_checkpoints/testing_soundtools_find_song-checkpoint.ipynb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dynsysplayground-takens.ipynb" afterPath="$PROJECT_DIR$/dynsysplayground-takens.ipynb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dynsysplayground.ipynb" afterPath="$PROJECT_DIR$/dynsysplayground.ipynb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/finding_song_draft-debug.ipynb" afterPath="$PROJECT_DIR$/finding_song_draft-debug.ipynb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/finding_song_draft.ipynb" afterPath="$PROJECT_DIR$/finding_song_draft.ipynb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/finding_song_v2.ipynb" afterPath="$PROJECT_DIR$/finding_song_v2.ipynb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resample_folder.ipynb" afterPath="$PROJECT_DIR$/resample_folder.ipynb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sound_checking.ipynb" afterPath="$PROJECT_DIR$/sound_checking.ipynb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sound_tools/signal_functions.py" afterPath="$PROJECT_DIR$/sound_tools/signal_functions.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sound_tools/soundtools_testing.py" afterPath="$PROJECT_DIR$/sound_tools/soundtools_testing.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sound_tools/wav.py" afterPath="$PROJECT_DIR$/sound_tools/wav.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/testing_soundtools_bout_f0.ipynb" afterPath="$PROJECT_DIR$/testing_soundtools_bout_f0.ipynb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sound_tools/soundtools.py" afterPath="$PROJECT_DIR$/sound_tools/soundtools.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/testing_soundtools_find_song.ipynb" afterPath="$PROJECT_DIR$/testing_soundtools_find_song.ipynb" />
     </list>
     <ignored path="soundflow.iws" />
@@ -61,14 +57,42 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="soundtools.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="events.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../ephysflow/basic_viewing/events.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="3" column="43" selection-start-line="3" selection-start-column="43" selection-end-line="3" selection-end-column="43" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="soundtools.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sound_tools/soundtools.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.3442623">
-              <caret line="10" column="32" selection-start-line="10" selection-start-column="32" selection-end-line="10" selection-end-column="32" />
-              <folding>
-                <element signature="e#122#140#0" expanded="true" />
-              </folding>
+            <state vertical-scroll-proportion="0.0">
+              <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="A4x1-tet-3mm-150-121-H16_1.prb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../../bci_zf/raw_data/z020/2016-06-02_11-10-42_2100/A4x1-tet-3mm-150-121-H16_1.prb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="15" column="1" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="A4x1-tet-3mm-150-121-H16_0.prb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../../bci_zf/raw_data/z020/2016-06-02_11-10-42_2100/A4x1-tet-3mm-150-121-H16_0.prb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="2" column="36" selection-start-line="2" selection-start-column="36" selection-end-line="2" selection-end-column="36" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -77,30 +101,10 @@
         <entry file="file://$PROJECT_DIR$/sound_tools/soundtools_testing.py">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="46" column="43" selection-start-line="46" selection-start-column="43" selection-end-line="46" selection-end-column="43" />
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding>
                 <element signature="e#0#10#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="events.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../ephysflow/basic_viewing/events.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="h5_functions.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../ephysflow/basic_viewing/h5_functions.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -115,6 +119,16 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="A4x1-tet-3mm-150-121-H16_3.prb" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../../bci_zf/raw_data/z020/2016-06-02_11-10-42_2100/A4x1-tet-3mm-150-121-H16_3.prb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.4054054">
+              <caret line="11" column="35" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="35" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
   </component>
   <component name="Git.Settings">
@@ -123,19 +137,22 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/sound_tools/soundtools.py" />
         <option value="$PROJECT_DIR$/sound_tools/wav.py" />
         <option value="$PROJECT_DIR$/sound_tools/soundtools_testing.py" />
         <option value="$PROJECT_DIR$/../ephysflow/basic_viewing/basic_plot.py" />
         <option value="$PROJECT_DIR$/../ephysflow/phy_tools/kwik_functions.py" />
+        <option value="$PROJECT_DIR$/../../bci_zf/raw_data/z020/2016-06-02_11-10-42_2100/A4x1-tet-3mm-150-121-H16_3.prb" />
+        <option value="$PROJECT_DIR$/../../bci_zf/raw_data/z020/2016-06-02_11-10-42_2100/A4x1-tet-3mm-150-121-H16_2.prb" />
+        <option value="$PROJECT_DIR$/sound_tools/soundtools.py" />
+        <option value="$PROJECT_DIR$/../../bci_zf/raw_data/z020/2016-06-02_11-10-42_2100/A4x1-tet-3mm-150-121-H16.prb" />
+        <option value="$PROJECT_DIR$/../../bci_zf/raw_data/z020/2016-06-02_11-10-42_2100_00/A4x1-tet-3mm-150-121-H16_1.prb" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="809" />
-    <option name="y" value="79" />
-    <option name="width" value="1094" />
-    <option name="height" value="1012" />
+    <option name="y" value="23" />
+    <option name="width" value="800" />
+    <option name="height" value="504" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -162,6 +179,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -234,7 +252,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -242,6 +259,12 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/../../bci_zf/raw_data/z020/2016-06-02_11-10-42_2100_00" />
+      <recent name="$PROJECT_DIR$/../../bci_zf/raw_data/z020/2016-06-02_11-10-42_2100" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
@@ -381,10 +404,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="809" y="79" width="1094" height="1012" extended-state="0" />
-    <editor active="false" />
+    <frame x="0" y="23" width="800" height="504" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28610602" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.49875" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -421,38 +444,18 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/sound_tools/soundtools.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#122#140#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sound_tools/soundtools_testing.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="46" column="43" selection-start-line="46" selection-start-column="43" selection-end-line="46" selection-end-column="43" />
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../ephysflow/basic_viewing/events.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../ephysflow/basic_viewing/h5_functions.py">
+    <entry file="file://$PROJECT_DIR$/../../bci_zf/raw_data/z020/2016-06-02_11-10-42_2100/A4x1-tet-3mm-150-121-H16_3.prb">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -465,23 +468,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sound_tools/soundtools.py">
+    <entry file="file://$PROJECT_DIR$/../ephysflow/basic_viewing/events.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#122#140#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sound_tools/soundtools_testing.py">
+    <entry file="file://$PROJECT_DIR$/sound_tools/wav.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="46" column="43" selection-start-line="46" selection-start-column="43" selection-end-line="46" selection-end-column="43" />
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-          </folding>
+          <caret line="2" column="12" selection-start-line="2" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -493,10 +492,50 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../ephysflow/basic_viewing/h5_functions.py">
+    <entry file="file://$PROJECT_DIR$/sound_tools/wav.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <caret line="2" column="12" selection-start-line="2" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../ephysflow/basic_viewing/events.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sound_tools/wav.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="2" column="12" selection-start-line="2" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../ephysflow/basic_viewing/events.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sound_tools/wav.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="2" column="12" selection-start-line="2" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../ephysflow/basic_viewing/events.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -513,16 +552,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sound_tools/soundtools.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding>
-            <element signature="e#122#140#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -530,26 +559,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sound_tools/soundtools.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#122#140#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sound_tools/soundtools_testing.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -568,46 +577,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sound_tools/soundtools.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#122#140#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sound_tools/soundtools_testing.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sound_tools/wav.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="40" column="0" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../ephysflow/basic_viewing/events.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sound_tools/signal_functions.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.032786883">
-          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -626,10 +600,57 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../ephysflow/basic_viewing/h5_functions.py">
+    <entry file="file://$PROJECT_DIR$/../../bci_zf/ss_data/z020/2016-06-02_11-10-42_2100/A4x1-tet-3mm-150-121-H16.prb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.11339093">
+          <caret line="7" column="34" selection-start-line="7" selection-start-column="34" selection-end-line="7" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sound_tools/signal_functions.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.032397408">
+          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../ephysflow/basic_viewing/events.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <caret line="3" column="43" selection-start-line="3" selection-start-column="43" selection-end-line="3" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../bci_zf/raw_data/z020/2016-06-02_11-10-42_2100/A4x1-tet-3mm-150-121-H16_2.prb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="15" column="1" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../bci_zf/raw_data/z020/2016-06-02_11-10-42_2100/A4x1-tet-3mm-150-121-H16.prb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.24298055">
+          <caret line="15" column="1" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../bci_zf/raw_data/z020/2016-06-02_11-10-42_2100_00/A4x1-tet-3mm-150-121-H16.prb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.49784017">
+          <caret line="35" column="33" selection-start-line="35" selection-start-column="33" selection-end-line="35" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sound_tools/soundtools.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -637,20 +658,34 @@
     <entry file="file://$PROJECT_DIR$/sound_tools/soundtools_testing.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="46" column="43" selection-start-line="46" selection-start-column="43" selection-end-line="46" selection-end-column="43" />
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#0#10#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sound_tools/soundtools.py">
+    <entry file="file://$PROJECT_DIR$/../../bci_zf/raw_data/z020/2016-06-02_11-10-42_2100/A4x1-tet-3mm-150-121-H16_1.prb">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.3442623">
-          <caret line="10" column="32" selection-start-line="10" selection-start-column="32" selection-end-line="10" selection-end-column="32" />
-          <folding>
-            <element signature="e#122#140#0" expanded="true" />
-          </folding>
+        <state vertical-scroll-proportion="0.0">
+          <caret line="15" column="1" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../bci_zf/raw_data/z020/2016-06-02_11-10-42_2100/A4x1-tet-3mm-150-121-H16_0.prb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="2" column="36" selection-start-line="2" selection-start-column="36" selection-end-line="2" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../bci_zf/raw_data/z020/2016-06-02_11-10-42_2100/A4x1-tet-3mm-150-121-H16_3.prb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4054054">
+          <caret line="11" column="35" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="35" />
+          <folding />
         </state>
       </provider>
     </entry>
