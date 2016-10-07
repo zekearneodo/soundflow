@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<project version="4">
-  <component name="ProjectModuleManager">
-    <modules>
-      <module fileurl="file://$PROJECT_DIR$/../ephysflow/.idea/ephysflow.iml" filepath="$PROJECT_DIR$/../ephysflow/.idea/ephysflow.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/soundflow.iml" filepath="$PROJECT_DIR$/.idea/soundflow.iml" />
-    </modules>
-  </component>
-</project>
