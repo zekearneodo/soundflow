@@ -199,6 +199,14 @@ class H5Data:
                         dtype=self.data_type)
         return data
 
+    # applies a scalar function to many starting points
+    def apply_repeated(self, starts, window, func, *args, **kwargs):
+        # starts, window in sample units
+        results = [func(Chunk(self, segment=[start, start + window]).data,
+                        *args,
+                        **kwargs) for start in starts]
+        return np.stack(results, axis=0)
+
 
 # class of methods for chunks of a signal
 # A chunk is a part of a signal and it is referenced to that signal.
